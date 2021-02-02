@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Anton;
+    src: url("../fonts/Anton/Anton-Regular.ttf");
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width100 {
+    width: 100vw;
+}
+
+.displayNlnBlck {
+    display: inline-block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.pstnAbsolute {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.pstnRelative {
+    position: relative;
+}
+
+.bckcolorGray {
+    background-color: grey;
+}
+
+
+/* 2ndLevel */
+
+.mainAnchors {
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(99, 4, 94);
+}
+
+.subAnchors {
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(99, 4, 94);
+}
