@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Anton;
+    src: url("../fonts/Anton/Anton-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(46, 2, 75);
+    text-align: center;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.jstfycntntBetween {
+    justify-content: space-between;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width100vw {
+    width: 100vw;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.displayNlnBlck {
+    display: inline-block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.pstnAbsolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.pstnRelative {
+    position: relative;
+}
+
+.zindx0 {
+    z-index: 0;
+}
+
+.zindx1 {
+    z-index: 1;
+}
+
+.bckcolorGray {
+    background-color: grey;
+}
+
+.rotateY90 {
+    transform: perspective(500px) rotateY(90deg);
+}
+
+.rotateY180 {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+/* ////////////////////////X   Global  X /////////////////////////// */
+
+h1 {
+    font-size: 4rem;
+    color: darkslateblue;
+}
+
+#daydt {
+    background-color: aquamarine;
+    color: darkslateblue;
+    margin: auto;
+    font-size: 3rem;
+    width: 50%;
+}

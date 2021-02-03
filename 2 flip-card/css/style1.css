@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Anton;
+    src: url("../fonts/Anton/Anton-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(46, 2, 75);
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.jstfycntntBetween {
+    justify-content: space-between;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width100vw {
+    width: 100vw;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.displayNlnBlck {
+    display: inline-block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.pstnAbsolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.pstnRelative {
+    position: relative;
+}
+
+.zindx0 {
+    z-index: 0;
+}
+
+.zindx1 {
+    z-index: 1;
+}
+
+.bckcolorGray {
+    background-color: grey;
+}
+
+.rotateY90 {
+    transform: perspective(500px) rotateY(90deg);
+}
+
+.rotateY180 {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+/* 2ndLevel */
+
+.mainAnchors {
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(99, 4, 94);
+}
+
+.subAnchors {
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(99, 4, 94);
+}
+
+img,
+.bck {
+    transition: all 1s ease-in-out;
+}
+
+img {
+    backface-visibility: hidden;
+}
+
+.frnt:hover>img {
+    transform: perspective(500px) rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.frnt:hover+.bck {
+    transform: perspective(500px) rotateY(360deg);
+}
